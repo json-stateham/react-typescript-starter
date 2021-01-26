@@ -1,0 +1,1 @@
+React, Redux and Typescript starter boilerplate
