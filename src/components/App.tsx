@@ -1,14 +1,7 @@
-import { Provider } from 'react-redux';
-import { store } from '../state';
-import { RepositoriesList } from './RepositoriesList';
+const App = () => (
+  <div>
+    <h1>App</h1>
+  </div>
+)
 
-export const App = () => {
-  return (
-    <Provider store={store}>
-      <div>
-        <h1>Search For a Package</h1>
-        <RepositoriesList />
-      </div>
-    </Provider>
-  );
-};
+export { App }
